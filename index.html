@@ -4,15 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Added meta description and author for better SEO -->
-  <meta name="description" content="My GitHub Pages Site showcasing my projects, goals, and pixel art creations." />
+  <meta name="description" content="My GitHub Pages Site showcasing my projects, goals, and featured art." />
   <meta name="author" content="Your Name" />
   <title>My GitHub Pages Site</title>
   <!-- Tailwind CSS integration -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-stone-900 text-stone-100">
   <!-- Header Section -->
-  <header class="bg-white shadow p-4">
+  <header class="bg-stone-800 shadow p-4">
     <h1 class="text-3xl font-bold text-center">Welcome to My GitHub Pages Site!</h1>
   </header>
 
@@ -28,22 +28,26 @@
       <h2 class="text-2xl font-semibold mb-4">Goals</h2>
       <ol class="list-decimal list-inside space-y-2">
         <li>Contribute to the LadyBird web browser</li>
-        <li>Publish articles each time I work</li>
+        <li>
+          <a href="articles_list.html" class="text-teal-300 hover:underline">
+            Publish articles each time I work
+          </a>
+        </li>
         <li>Build a drone</li>
         <li>Learn Julia</li>
         <li>Build useful software (i.e., someone besides me used it)</li>
       </ol>
     </section>
 
-    <!-- Pixel Art Gallery Section -->
+    <!-- Featured Art Section -->
     <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Pixel Art Gallery</h2>
+      <h2 class="text-2xl font-semibold mb-4">Featured Art</h2>
       <div class="flex flex-wrap gap-4 justify-center">
         <blockquote class="pix-embed-wrap flex-1">
           <div class="pix-embed-activity" 
                data-id="sr5z79bf54243eaws3" 
-               data-width="100" 
-               data-height="100" 
+               data-width="80" 
+               data-height="80" 
                data-type="art" 
                data-theme="dark" 
                data-show-edit="1">
@@ -54,7 +58,7 @@
           <div class="pix-embed-activity" 
                data-id="sr5zfba6f85130aws3" 
                data-width="80" 
-               data-height="150" 
+               data-height="80" 
                data-type="art" 
                data-theme="dark" 
                data-show-edit="1">
@@ -66,10 +70,10 @@
   </main>
 
   <!-- Footer Section -->
-  <footer class="bg-white p-4 text-center">
+  <footer class="bg-stone-800 p-4 text-center">
     <p>
       Shoutout to this pixel art creator: 
-      <a class="text-blue-600 hover:underline" 
+      <a class="text-teal-300 hover:underline" 
          href="https://www.pixilart.com/dragonom" 
          target="_blank" 
          rel="noopener noreferrer">
